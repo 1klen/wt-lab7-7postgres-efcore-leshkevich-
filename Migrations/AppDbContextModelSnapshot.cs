@@ -50,6 +50,26 @@ namespace wt_lab6_minimalapi_leshkevich.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Cars");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Brand = "Mercedes-Benz",
+                            CreatedAt = new DateTime(2026, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
+                            IsAvailable = true,
+                            Model = "E 320 W211",
+                            PricePerDay = 90m
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Brand = "BMW",
+                            CreatedAt = new DateTime(2026, 1, 2, 0, 0, 0, 0, DateTimeKind.Utc),
+                            IsAvailable = true,
+                            Model = "530i E60",
+                            PricePerDay = 85m
+                        });
                 });
 #pragma warning restore 612, 618
         }

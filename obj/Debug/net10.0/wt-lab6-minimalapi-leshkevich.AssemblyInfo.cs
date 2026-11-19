@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("wt-lab6-minimalapi-leshkevich")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0c60543a790e7479aa46a7bb2618eaf48064a29")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d6283293febd7134bca9943db98230096a5cdec9")]
 [assembly: System.Reflection.AssemblyProductAttribute("wt-lab6-minimalapi-leshkevich")]
 [assembly: System.Reflection.AssemblyTitleAttribute("wt-lab6-minimalapi-leshkevich")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
